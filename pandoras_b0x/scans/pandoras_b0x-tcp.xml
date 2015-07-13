@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 6.47 scan initiated Thu Jun 25 16:20:22 2015 as: nmap -T4 -sSVC -&#45;reason -O -p- -oA pandoras_b0x-tcp -v 192.168.56.101 -->
+<nmaprun scanner="nmap" args="nmap -T4 -sSVC -&#45;reason -O -p- -oA pandoras_b0x-tcp -v 192.168.56.101" start="1435242022" startstr="Thu Jun 25 16:20:22 2015" version="6.47" xmloutputversion="1.04">
+<scaninfo type="syn" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="1"/>
+<debugging level="0"/>
+<taskbegin task="ARP Ping Scan" time="1435242022"/>
+<taskend task="ARP Ping Scan" time="1435242022" extrainfo="1 total hosts"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1435242022"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1435242022"/>
+<taskbegin task="SYN Stealth Scan" time="1435242022"/>
+<taskend task="SYN Stealth Scan" time="1435242023" extrainfo="65535 total ports"/>
+<taskbegin task="Service scan" time="1435242023"/>
+<taskend task="Service scan" time="1435242154" extrainfo="2 services on 1 host"/>
+<taskbegin task="NSE" time="1435242155"/>
+<taskend task="NSE" time="1435242215"/>
+<host starttime="1435242022" endtime="1435242215"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.56.101" addrtype="ipv4"/>
+<address addr="08:00:27:B6:50:09" addrtype="mac" vendor="Cadmus Computer Systems"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="65533">
+<extrareasons reason="resets" count="65533"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="ssh" product="OpenSSH" version="5.9p1 Debian 5ubuntu1.4" extrainfo="Ubuntu Linux; protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:5.9p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="ssh-hostkey" output="&#xa;  1024 0e:0d:5d:50:f2:7c:74:07:5b:6f:3f:63:90:42:60:eb (DSA)&#xa;  2048 88:28:b9:2f:20:1a:c4:de:d2:7e:64:38:2b:56:48:ad (RSA)&#xa;  256 3b:51:78:ac:21:26:0d:e4:aa:c4:75:cc:7d:6c:0b:f3 (ECDSA)"><table>
+<elem key="bits">1024</elem>
+<elem key="type">ssh-dss</elem>
+<elem key="fingerprint">0e0d5d50f27c74075b6f3f63904260eb</elem>
+<elem key="key">QUFBQUIzTnphQzFrYzNNQUFBQ0JBS25ncTQ4WlArR2tPSFhrcE1yODVYeXQzQngySC81ajZ0Zzg5Q3RiRS93ekYvdmxxOVowY2VIQ1RvalhRUXc1bW9QL3JpT2NjZXhmOUpwZU9qVjhCbW83cWczSVd5RnByUVk3RGVFOVNZTml0K1BOUE5uNkJmTndURkhXMytKa0J1bGxYajhibHBWOVJLUHNld2VWdWs1SXpwTEo2WENZakxRVGt3MHFhcHliQUFBQUZRQ0Erbi9CelM1WGQzMXdxQWJER0ZkMWg1MWFPUUFBQUlCK2lWVjd1M04wTjZVMm5FTTZtMjRBMmRMSFZ4dThxRlZUbFlkeTlVNGprZVZoYzllV01UZkxkUDNZU3BNbFc5MTZDRzFkakVRdURlVjBiRzFQZnJOem5qTkwyamlsTWhWYjNjb2NNbGs3VkxmYlREVjJtYnIrZTAxYmQveWg2SEtQOGZFaWxBN1FOM21PY1JYN3RFV1gvbzJaTVZoR2wyVDNrK3pKNFlvNm1RQUFBSUVBcU5qaVFhMmZ1N0dTNXZWb2Q2dERXMnRaRTdoNy9rZE84WCt2ZFF6emNwcGFuOWJVaVFhTWl3RE1GWXRWbXpSTVZldEhPaXhFdzl0Ynh2UEJUY0o0RFpwZXJRUDMxenZBWTNJdjV4VE9oU2ZHZ0xSeFp5dC93eFJhdlNnMWR4bFlsQkVBYitNdVJMSmpIWGlVbThDT0dDbkQ2cGVhS3owT2dkUmlvbFZUbmJZPQ==</elem>
+</table>
+<table>
+<elem key="bits">2048</elem>
+<elem key="type">ssh-rsa</elem>
+<elem key="fingerprint">8828b92f201ac4ded27e64382b5648ad</elem>
+<elem key="key">QUFBQUIzTnphQzF5YzJFQUFBQURBUUFCQUFBQkFRQ2x6ZS9UaG9nY1kvUDZ1ckJOZ2lVc2xmdm9XekxnVTVDaW5iVUlXVFBmbVVVWGV1K2VsdUF1azBiWHpRSjdYSGFveURsU3pLcWR5MDgweWtDTkV2azA1cG1ZTk55S3pqL1dkYWJ2VkhLdGNUWXQ0ODNKSGJkUll1a3p4OHhtM2duUzQwRFdWVS9yWDlaOUNHQk1uMGF1UENVVktaODE1NDlqK3pRcVdEQXhTVkQxMGRWSWNHdjZSc2tIUkNWc3I5a3RWNE5TKzc2b3Y0b3Z2azZrbTFxcm1ZQmMvVmRZQkhpMlJsem41VFRvd3RGdDU0bUtKUzdQbGk2SW9WbDBFYitYdWF3bGkzc3JFaEN1S3pOdDMrN0tla3kzQmZmelBOWnlOUXVRWmVvdUttK3l6NHhQTXczRExxZ3grTHJkWFJXZXI0c1VIc2NQWnRXTnVuUG83OHJk</elem>
+</table>
+<table>
+<elem key="bits">256</elem>
+<elem key="type">ecdsa-sha2-nistp256</elem>
+<elem key="fingerprint">3b5178ac21260de4aac475cc7d6c0bf3</elem>
+<elem key="key">QUFBQUUyVmpaSE5oTFhOb1lUSXRibWx6ZEhBeU5UWUFBQUFJYm1semRIQXlOVFlBQUFCQkJCZ2U0bVVJSkZISjZpTnVSRkdlb2RCSStsZ012UEx0aHpQTjVIZ2Y0bWxrSG10Y1Z2Uk5DOTFyNFRpRk8wdGNmTU43U1h2MmxJbDZEMDFhZmZzY2hjND0=</elem>
+</table>
+</script></port>
+<port protocol="tcp" portid="54311"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="unknown" servicefp="SF-Port54311-TCP:V=6.47%I=7%D=6/25%Time=558C0E2D%P=x86_64-unknown-linux-gnu%r(NULL,69,&quot;#######################\n#\x20Secure\x20Remote\x20Shell\x20#\n#######################\nWelcome,\x20please\x20log\x20in\nPassword:\x20&quot;)%r(GenericLines,73,&quot;#######################\n#\x20Secure\x20Remote\x20Shell\x20#\n#######################\nWelcome,\x20please\x20log\x20in\nPassword:\x20Password:\x20&quot;)%r(GetRequest,85,&quot;#######################\n#\x20Secure\x20Remote\x20Shell\x20#\n#######################\nWelcome,\x20please\x20log\x20in\nPassword:\x20Invalid\x20password!\nPassword:\x20&quot;)%r(HTTPOptions,85,&quot;#######################\n#\x20Secure\x20Remote\x20Shell\x20#\n#######################\nWelcome,\x20please\x20log\x20in\nPassword:\x20Invalid\x20password!\nPassword:\x20&quot;)%r(RTSPRequest,85,&quot;#######################\n#\x20Secure\x20Remote\x20Shell\x20#\n#######################\nWelcome,\x20please\x20log\x20in\nPassword:\x20Invalid\x20password!\nPassword:\x20&quot;)%r(RPCCheck,85,&quot;#######################\n#\x20Secure\x20Remote\x20Shell\x20#\n#######################\nWelcome,\x20please\x20log\x20in\nPassword:\x20Invalid\x20password!\nPassword:\x20&quot;)%r(DNSVersionBindReq,73,&quot;#######################\n#\x20Secure\x20Remote\x20Shell\x20#\n#######################\nWelcome,\x20please\x20log\x20in\nPassword:\x20Password:\x20&quot;)%r(DNSStatusRequest,73,&quot;#######################\n#\x20Secure\x20Remote\x20Shell\x20#\n#######################\nWelcome,\x20please\x20log\x20in\nPassword:\x20Password:\x20&quot;)%r(Help,85,&quot;#######################\n#\x20Secure\x20Remote\x20Shell\x20#\n#######################\nWelcome,\x20please\x20log\x20in\nPassword:\x20Invalid\x20password!\nPassword:\x20&quot;)%r(SSLSessionReq,A1,&quot;#######################\n#\x20Secure\x20Remote\x20Shell\x20#\n#######################\nWelcome,\x20please\x20log\x20in\nPassword:\x20Invalid\x20password!\nPassword:\x20Invalid\x20password!\nPassword:\x20&quot;)%r(Kerberos,8F,&quot;#######################\n#\x20Secure\x20Remote\x20Shell\x20#\n#######################\nWelcome,\x20please\x20log\x20in\nPassword:\x20Password:\x20Invalid\x20password!\nPassword:\x20&quot;);" method="table" conf="3"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="22"/>
+<portused state="closed" proto="tcp" portid="1"/>
+<portused state="closed" proto="udp" portid="43193"/>
+<osmatch name="Linux 3.11 - 3.14" accuracy="100" line="51792">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="127" lastboot="Thu Jun 25 16:21:28 2015"/>
+<distance value="1"/>
+<tcpsequence index="261" difficulty="Good luck!" values="651A2062,85357337,ABD54F89,79995064,E5DAF49D,E746E5C5"/>
+<ipidsequence class="All zeros" values="0,0,0,0,0,0"/>
+<tcptssequence class="other" values="40CB,40E4,40FD,4116,412F,4148"/>
+<times srtt="172" rttvar="21" to="100000"/>
+</host>
+<taskbegin task="NSE" time="1435242215"/>
+<taskend task="NSE" time="1435242215"/>
+<runstats><finished time="1435242215" timestr="Thu Jun 25 16:23:35 2015" elapsed="193.69" summary="Nmap done at Thu Jun 25 16:23:35 2015; 1 IP address (1 host up) scanned in 193.69 seconds" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

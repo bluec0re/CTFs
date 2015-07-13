@@ -1,0 +1,2 @@
+exit @ 0xffffcb9c
+ebp @ 0xffffcbec

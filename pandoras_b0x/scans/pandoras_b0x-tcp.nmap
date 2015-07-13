@@ -1,0 +1,57 @@
+# Nmap 6.47 scan initiated Thu Jun 25 16:20:22 2015 as: nmap -T4 -sSVC --reason -O -p- -oA pandoras_b0x-tcp -v 192.168.56.101
+Nmap scan report for 192.168.56.101
+Host is up, received arp-response (0.00017s latency).
+Not shown: 65533 closed ports
+Reason: 65533 resets
+PORT      STATE SERVICE REASON  VERSION
+22/tcp    open  ssh     syn-ack OpenSSH 5.9p1 Debian 5ubuntu1.4 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   1024 0e:0d:5d:50:f2:7c:74:07:5b:6f:3f:63:90:42:60:eb (DSA)
+|   2048 88:28:b9:2f:20:1a:c4:de:d2:7e:64:38:2b:56:48:ad (RSA)
+|_  256 3b:51:78:ac:21:26:0d:e4:aa:c4:75:cc:7d:6c:0b:f3 (ECDSA)
+54311/tcp open  unknown syn-ack
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at http://www.insecure.org/cgi-bin/servicefp-submit.cgi :
+SF-Port54311-TCP:V=6.47%I=7%D=6/25%Time=558C0E2D%P=x86_64-unknown-linux-gn
+SF:u%r(NULL,69,"#######################\n#\x20Secure\x20Remote\x20Shell\x2
+SF:0#\n#######################\nWelcome,\x20please\x20log\x20in\nPassword:
+SF:\x20")%r(GenericLines,73,"#######################\n#\x20Secure\x20Remot
+SF:e\x20Shell\x20#\n#######################\nWelcome,\x20please\x20log\x20
+SF:in\nPassword:\x20Password:\x20")%r(GetRequest,85,"#####################
+SF:##\n#\x20Secure\x20Remote\x20Shell\x20#\n#######################\nWelco
+SF:me,\x20please\x20log\x20in\nPassword:\x20Invalid\x20password!\nPassword
+SF::\x20")%r(HTTPOptions,85,"#######################\n#\x20Secure\x20Remot
+SF:e\x20Shell\x20#\n#######################\nWelcome,\x20please\x20log\x20
+SF:in\nPassword:\x20Invalid\x20password!\nPassword:\x20")%r(RTSPRequest,85
+SF:,"#######################\n#\x20Secure\x20Remote\x20Shell\x20#\n#######
+SF:################\nWelcome,\x20please\x20log\x20in\nPassword:\x20Invalid
+SF:\x20password!\nPassword:\x20")%r(RPCCheck,85,"#######################\n
+SF:#\x20Secure\x20Remote\x20Shell\x20#\n#######################\nWelcome,\
+SF:x20please\x20log\x20in\nPassword:\x20Invalid\x20password!\nPassword:\x2
+SF:0")%r(DNSVersionBindReq,73,"#######################\n#\x20Secure\x20Rem
+SF:ote\x20Shell\x20#\n#######################\nWelcome,\x20please\x20log\x
+SF:20in\nPassword:\x20Password:\x20")%r(DNSStatusRequest,73,"#############
+SF:##########\n#\x20Secure\x20Remote\x20Shell\x20#\n######################
+SF:#\nWelcome,\x20please\x20log\x20in\nPassword:\x20Password:\x20")%r(Help
+SF:,85,"#######################\n#\x20Secure\x20Remote\x20Shell\x20#\n####
+SF:###################\nWelcome,\x20please\x20log\x20in\nPassword:\x20Inva
+SF:lid\x20password!\nPassword:\x20")%r(SSLSessionReq,A1,"#################
+SF:######\n#\x20Secure\x20Remote\x20Shell\x20#\n#######################\nW
+SF:elcome,\x20please\x20log\x20in\nPassword:\x20Invalid\x20password!\nPass
+SF:word:\x20Invalid\x20password!\nPassword:\x20")%r(Kerberos,8F,"#########
+SF:##############\n#\x20Secure\x20Remote\x20Shell\x20#\n##################
+SF:#####\nWelcome,\x20please\x20log\x20in\nPassword:\x20Password:\x20Inval
+SF:id\x20password!\nPassword:\x20");
+MAC Address: 08:00:27:B6:50:09 (Cadmus Computer Systems)
+Device type: general purpose
+Running: Linux 3.X
+OS CPE: cpe:/o:linux:linux_kernel:3
+OS details: Linux 3.11 - 3.14
+Uptime guess: 0.001 days (since Thu Jun 25 16:21:28 2015)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=261 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+# Nmap done at Thu Jun 25 16:23:35 2015 -- 1 IP address (1 host up) scanned in 193.69 seconds

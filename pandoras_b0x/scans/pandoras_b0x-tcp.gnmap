@@ -1,0 +1,5 @@
+# Nmap 6.47 scan initiated Thu Jun 25 16:20:22 2015 as: nmap -T4 -sSVC --reason -O -p- -oA pandoras_b0x-tcp -v 192.168.56.101
+# Ports scanned: TCP(65535;1-65535) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 192.168.56.101 ()	Status: Up
+Host: 192.168.56.101 ()	Ports: 22/open/tcp//ssh//OpenSSH 5.9p1 Debian 5ubuntu1.4 (Ubuntu Linux; protocol 2.0)/, 54311/open/tcp/////	Ignored State: closed (65533)	OS: Linux 3.11 - 3.14	Seq Index: 261	IP ID Seq: All zeros
+# Nmap done at Thu Jun 25 16:23:35 2015 -- 1 IP address (1 host up) scanned in 193.69 seconds
