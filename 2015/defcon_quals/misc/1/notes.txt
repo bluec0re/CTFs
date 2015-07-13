@@ -1,0 +1,55 @@
+blackbox_ced7f267475a0299446fa86c26d77161.quals.shallweplayaga.me:18324
+
+login2:
+AAAA -> AAAA
+BAAA -> BBCE
+CAAA -> CCEI
+DAAA -> DDGM
+
+BBBB -> BCEI
+CBBB -> CDGM
+
+
+ABCD -> ABDH
+        ||||
+        ABCD
+
+
+login5:
+AAAA -> BCEI   @ 1
+     -> n;9b   @ 39
+     -> /5Tm   @ 76
+     -> i'p?   @ 34
+     -> +xDG   @ 72
+BBBB -> a0JS   @ 25
+     -> Qg#h   @ 80
+CCCC -> q[,z   @ 40
+ABCD -> GLVp   @ 6
+AABB -> c4Qg   @ 28
+AACC -> j)r]   @ 35
+ACB  -> ];7    @ 86
+DCBA -> Sl.4
+
+ABCDEF -> ;8Yv~{  @ 78
+ABCDEF -> ?'o<!c  @ 82
+
+
+
+AA -> AA
+BB -> BC
+CC -> CE
+
+
+AA -> JS
+BB -> KU
+CC -> LW
+
+
+login 6:
+AAA -> Xv 
+    -> =%l
+    -> -2N
+BBB -> )u}
+    -> 5Uo
+ABC -> zJT
+    -> ;"g
